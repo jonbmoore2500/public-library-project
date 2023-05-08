@@ -6,7 +6,7 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.string :password_digest
       t.string :bio
       t.string :fav_author
-      t.last_login :fav_genre
+      t.string :fav_genre
       t.datetime :last_login
       t.integer :phone_num
       t.string :email
